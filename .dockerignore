@@ -1,0 +1,32 @@
+# Ignore Python virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# SQLite database files (optional)
+*.sqlite3
+
+# Django stuff:
+*.log
+staticfiles/
+media/
+
+# VSCode / IDE settings
+.vscode/
+.idea/
+
+# MacOS / Windows system files
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
