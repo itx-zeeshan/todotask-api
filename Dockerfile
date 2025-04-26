@@ -15,10 +15,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy project files
 COPY . /code/
 
-# Make sure media and db are created
-RUN mkdir -p /code/media
-RUN touch /code/db.sqlite3
-
 # Expose port (Django default)
 EXPOSE 8000
 
